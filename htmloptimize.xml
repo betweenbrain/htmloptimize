@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - Html Optimize</name>
+	<author>Matt Thomas</author>
+	<creationDate>June 3rd, 2012</creationDate>
+	<copyright>(C) 2012 Matt Thomas. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>matt@betweenbrain.com</authorEmail>
+	<authorUrl>www.betweenbrain.com</authorUrl>
+	<version>0.1</version>
+	<description>Quick, down and dirty HTML optimization plugin.</description>
+	<files>
+		<filename plugin="htmloptimize">htmloptimize.php</filename>
+	</files>
+</install>
