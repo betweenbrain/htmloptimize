@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a824087-9ace-4668-b3ae-3f620d182edb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmloptimize.php" afterPath="$PROJECT_DIR$/htmloptimize.php" />
     </list>
     <ignored path="htmloptimize.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="htmloptimize.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="htmloptimize.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/htmloptimize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="356" selection-end="356" vertical-scroll-proportion="-15.0">
+            <state line="20" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.42105263">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.020477816">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,8 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/htmloptimize.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/htmloptimize.php" />
       </list>
     </option>
   </component>
@@ -235,16 +236,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/htmloptimize.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="356" selection-end="356" vertical-scroll-proportion="-15.0">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/htmloptimize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.020477816">
+        <state line="20" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.42105263">
           <folding />
         </state>
       </provider>
