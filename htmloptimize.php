@@ -15,24 +15,21 @@ class plgSystemHtmloptimize extends JPlugin
 		$app = JFactory::getApplication();
 
 		if ($app->isAdmin()) {
-			return;
+			return true;
 		}
 
 		$buffer = JResponse::getBody();
 
-		// Remove HTML comments, double new lines, double carriage returns and tabs.
-		// $buffer = preg_replace("/<!--[a-zA-Z0-9-.\/ ]*-->|[\n|\r]{2,}|\t/","",$buffer);
-
 		// Remove HTML comments
 		$buffer = preg_replace("/<!--[a-zA-Z0-9-.\/ ]*-->/","",$buffer);
 
-		// Replace double new lines, double carriage returns with single.
+		// Replace double new lines, double carriage returns with single occurrence.
 		$buffer = preg_replace("/([\n|\r]){2,}/","$1",$buffer);
 
-		// Remove tabs
+		// Remove tabs (Tabs?! We don't need no stinkin' tabs!)
 		$buffer = preg_replace("/\t/","",$buffer);
 
-		// Remove double or more leading spaces at beginning of lines.
+		// Remove two or more leading spaces at the beginning of lines.
 		$buffer = preg_replace("/(\n)\s{2,}/","$1",$buffer);
 
 		// Remove empty lines.
@@ -44,7 +41,7 @@ class plgSystemHtmloptimize extends JPlugin
 		JResponse::setBody($buffer);
 
 		return true;
-		
+
 	}
 }
 
